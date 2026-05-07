@@ -1,0 +1,14 @@
+{
+  "name": "jogo-narrativo-js",
+  "version": "1.0.0",
+  "description": "Jogo narrativo em JavaScript para rodar no console com Node.js.",
+  "main": "narrativo.js",
+  "scripts": {
+    "start": "node narrativo.js",
+    "check": "node --check narrativo.js"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
