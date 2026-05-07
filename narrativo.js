@@ -217,6 +217,8 @@ function iniciarJogo() {
             console.log('\nParabéns! Você passou de fase!'.green)
 
             fase++
+            
+            console.log(`Você está na FASE ${fase}!`.cyan)
         }
 
         if (vidas <= 0) {
