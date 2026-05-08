@@ -17,7 +17,21 @@ function menu() {
     do {
         console.clear()
 
-        console.log('=== LABIRINTO ALPHA ==='.blue)
+        console.log(`
+================================================================
+ _        _    ____ ___ ____  ___ _   _ _____ ___
+| |      / \\  | __ )_ _|  _ \\|_ _| \\ | |_   _/ _ \\
+| |     / _ \\ |  _ \\| || |_) || ||  \\| | | || | | |
+| |___ / ___ \\| |_) | ||  _ < | || |\\  | | || |_| |
+|_____/_/   \\_\\____/___|_| \\_\\___|_| \\_| |_| \\___/
+
+    _    _     ____  _   _    _
+   / \\  | |   |  _ \\| | | |  / \\
+  / _ \\ | |   | |_) | |_| | / _ \\
+ / ___ \\| |___|  __/|  _  |/ ___ \\
+/_/   \\_\\_____|_|   |_| |_/_/   \\_\\
+================================================================
+`.blue)
         console.log('1 - Jogar'.green)
         console.log('2 - Regras'.yellow)
         console.log('3 - Sair'.red)
@@ -214,7 +228,12 @@ function iniciarJogo() {
 
             caminhoJogador.push(escolha)
 
-            console.log('\nParabéns! Você passou de fase!'.green)
+            console.log(`
+========================================
+        PARABENS! VOCE AVANCOU!
+        VOCE PASSOU DE FASE!
+========================================
+`.green)
 
             fase++
             
